@@ -1,0 +1,13 @@
+include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  '../flutter_module_covid/.android/include_flutter.groovy'
+))
+rootProject.name = "CovideAndroid"
+
+include ':flutter_module_covid'
+project(':flutter_module_covid').projectDir = new File('../flutter_module_covid')
+
+include ':flutter_module_covid'
+project(':flutter_module_covid').projectDir = new File('../flutter_module_covid')

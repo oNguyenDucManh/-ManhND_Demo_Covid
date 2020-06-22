@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - fluttermodulecovid (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../flutter_module_covid/.ios/Flutter/engine`)
+  - fluttermodulecovid (from `../flutter_module_covid/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutter_module_covid/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../flutter_module_covid/.ios/Flutter/engine"
+  fluttermodulecovid:
+    :path: "../flutter_module_covid/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../flutter_module_covid/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  fluttermodulecovid: cd9267811cedb25fa8508850979507d97d75a45a
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+
+PODFILE CHECKSUM: 93194ad80f4b09f8d19041cf9cd6f70ede4ee68d
+
+COCOAPODS: 1.9.3

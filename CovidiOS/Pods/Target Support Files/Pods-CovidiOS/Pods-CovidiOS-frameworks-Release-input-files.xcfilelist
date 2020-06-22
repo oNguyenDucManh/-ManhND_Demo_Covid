@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-CovidiOS/Pods-CovidiOS-frameworks.sh
+${PODS_ROOT}/../../flutter_module_covid/.ios/Flutter/engine/Flutter.framework
+${PODS_ROOT}/../../flutter_module_covid/.ios/Flutter/App.framework

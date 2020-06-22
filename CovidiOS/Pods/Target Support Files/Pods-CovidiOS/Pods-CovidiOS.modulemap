@@ -1,0 +1,6 @@
+framework module Pods_CovidiOS {
+  umbrella header "Pods-CovidiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
