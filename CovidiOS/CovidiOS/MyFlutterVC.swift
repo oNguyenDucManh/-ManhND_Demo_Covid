@@ -35,6 +35,7 @@ class MyFlutterVC: FlutterViewController {
                 return
             }
         })
+        
         flutterChannel.invokeMethod("gotoPage", arguments: screen)
     }
     

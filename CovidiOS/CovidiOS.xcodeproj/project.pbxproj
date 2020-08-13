@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14F553EE2B0B033EB116E83D /* Pods_CovidiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D57ABCA24D5D87800644DC1 /* Pods_CovidiOS.framework */; };
 		6DE28A69249FBA1B00FB2D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE28A68249FBA1B00FB2D88 /* AppDelegate.swift */; };
 		6DE28A6B249FBA1B00FB2D88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE28A6A249FBA1B00FB2D88 /* SceneDelegate.swift */; };
 		6DE28A6D249FBA1B00FB2D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE28A6C249FBA1B00FB2D88 /* ViewController.swift */; };
@@ -15,12 +16,14 @@
 		6DE28A75249FBA2000FB2D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE28A73249FBA2000FB2D88 /* LaunchScreen.storyboard */; };
 		6DF0835424A0F053009D09DE /* MyFlutterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0835324A0F053009D09DE /* MyFlutterVC.swift */; };
 		6DF0835A24A0F4CB009D09DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0835924A0F4CB009D09DE /* SecondViewController.swift */; };
-		A14C3C7012D4A8112F20F992 /* Pods_CovidiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0733A58CE241ABEAE28800 /* Pods_CovidiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		042AA37018B0085EADF92C30 /* Pods-CovidiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidiOS.debug.xcconfig"; path = "Target Support Files/Pods-CovidiOS/Pods-CovidiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4B0733A58CE241ABEAE28800 /* Pods_CovidiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D57ABC524D5D85C00644DC1 /* Pods_CovidiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CovidiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D57ABC924D5D87800644DC1 /* FlutterPluginRegistrant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FlutterPluginRegistrant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D57ABCA24D5D87800644DC1 /* Pods_CovidiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CovidiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE28A65249FBA1B00FB2D88 /* CovidiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE28A68249FBA1B00FB2D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DE28A6A249FBA1B00FB2D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A14C3C7012D4A8112F20F992 /* Pods_CovidiOS.framework in Frameworks */,
+				14F553EE2B0B033EB116E83D /* Pods_CovidiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,9 @@
 		C8AADA4B774C4618647F803B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D57ABC924D5D87800644DC1 /* FlutterPluginRegistrant.framework */,
+				6D57ABCA24D5D87800644DC1 /* Pods_CovidiOS.framework */,
+				6D57ABC524D5D85C00644DC1 /* Pods_CovidiOS.framework */,
 				4B0733A58CE241ABEAE28800 /* Pods_CovidiOS.framework */,
 			);
 			name = Frameworks;
